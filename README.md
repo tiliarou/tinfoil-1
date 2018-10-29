@@ -1,4 +1,4 @@
-# DZ
+# Tinfoil
 
 A homebrew game, update, and DLC installer, and title key dumper.
 
@@ -34,7 +34,7 @@ HTTP requires directory listing / browsing be enabled.
 Requires a configured `nut` server. See [here](https://github.com/blawar/nut/#usb-server-for-dz) for details.
 
 #### NUT SERVER
-Requires a configured `nut` server. See [here](https://github.com/blawar/nut/#server-gui) for details.  Always ensure you are running the latest NUT server with DZ.
+Requires a configured `nut` server. See [here](https://github.com/blawar/nut/#server-gui) for details.  Always ensure you are running the latest NUT server with Tinfoil.
 
 
 ## Trouble shooting
@@ -46,9 +46,9 @@ Either your locations.conf is not located at /switch/dz/locations.conf, it is in
 - Ensure you did not save your locations.conf file as unicode, the hidden BOM bytes will break parsing.
 
 #### I see my network locations, however no files are listed
-Either DZ cannot cannot connect with the network settings provided, you are using http and did not enable directory browsing, your firewall is blocking the connection.
+Either Tinfoil cannot cannot connect with the network settings provided, you are using http and did not enable directory browsing, your firewall is blocking the connection.
 - Ensure that you can connect to the FTP/HTTP/NUT server using the provided settings from a *different* PC than the one running the server.
-- DZ does not support sub directories, so each directory must point to the exact directory the NSP's are located in.
+- Tinfoil does not support sub directories, so each directory must point to the exact directory the NSP's are located in.
 - Ensure your firewall is allowing external connections.  Configure or disable your firewall.
 - If using HTTP, ensure that directory listing / browsing is enabled.  This must be manually enabled with IIS.
 
@@ -56,7 +56,7 @@ Either DZ cannot cannot connect with the network settings provided, you are usin
 - Ensure the url in your locations.conf ends with a forward slash.
 - If using HTTP, verify that you can download the file using a web browser.  IIS requires you to add a MIME type for NSP (application/octet-stream) before you can download.
 
-#### DZ Hangs at a black screen when I launch it
+#### Tinfoil Hangs at a black screen when I launch it
 Ensure the network settings (specifcally the IP) are correct.
 
 ## Dumping Title Keys ##
