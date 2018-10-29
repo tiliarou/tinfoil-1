@@ -5,6 +5,7 @@ A homebrew game, update, and DLC installer, and title key dumper.
 
 ## Screenshots
 ![tile view](ss.jpg)
+![table](table.jpg)
 ![install options](install.jpg)
 
 
