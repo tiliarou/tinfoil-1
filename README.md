@@ -147,6 +147,9 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Hostname's (should) work in locations now.
 - Added read-only file browser.  Will add capabilities over time.
 - Removed individual locations from menu.  NSP's can be installed from locations in the File Browser.
+- Fixed broken USB installs.
+- Added ability to show installed titles in games, dlc, and updates.
+- Fixed some navigation quirks in grid ui.
 
 
 
