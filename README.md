@@ -1,6 +1,6 @@
 # Tinfoil
 
-A homebrew game, update, and DLC installer, and title key dumper.
+A homebrew game, update, and DLC installer.
 
 
 ## Screenshots
@@ -58,11 +58,6 @@ Either Tinfoil cannot cannot connect with the network settings provided, you are
 
 #### Tinfoil Hangs at a black screen when I launch it
 Ensure the network settings (specifcally the IP) are correct.
-
-## Dumping Title Keys ##
-
-Title keys are saved to `sdmc:/switch/dz/titlekeys.txt` when dumped. Additionally, you can place a single HTTP URL into `/switch/dz/titlekeys.url.txt` , to automatically submit your keys to that URL to back them up.
-
 
 ## Disclaimer
 
