@@ -145,6 +145,7 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Fixed broken USB installs.
 - Added ability to show installed titles in games, dlc, and updates.
 - Fixed some navigation quirks in grid ui.
+- Added support for SX USB mass storage.  Tinfoil will scan the root directory by default, any other directories must be added in locations.conf.  Not sure if this will crash on non-sx OS's.
 
 
 
