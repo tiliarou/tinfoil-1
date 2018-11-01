@@ -30,6 +30,9 @@ Regular FTP, not FTPS, not SFTP, normal plain jane FTP.
 #### HTTP
 HTTP requires directory listing / browsing be enabled.
 
+#### SX USB Mass Storage Device / Hard Drive
+Requires SX OS 2.2.1+.  Attach the hard drive before you launch Tinfoil.  Tinfoil will automatically scan the root directory, any subdirectories must be added to locations.conf.  Does not currently support hot swap.
+
 #### USB
 Requires a configured `nut` server. See [here](https://github.com/blawar/nut/#usb-server-for-dz) for details.
 
