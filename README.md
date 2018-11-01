@@ -162,3 +162,7 @@ https://github.com/SciresM/hactool
 
 Random JSON parser:
 https://github.com/nlohmann/json
+
+## Trademark
+
+the name "Tinfoil" is trademarked and may not be used without expressed permission.
