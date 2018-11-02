@@ -1,0 +1,10 @@
+[
+	{
+		"title": "USB GAMES",
+		"url": "sxusb:/games/"
+	},
+	{
+		"title": "USB Updates",
+		"url": "sxusb:/updates/"
+	}
+]

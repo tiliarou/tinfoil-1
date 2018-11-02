@@ -30,6 +30,9 @@ Regular FTP, not FTPS, not SFTP, normal plain jane FTP.
 #### HTTP
 HTTP requires directory listing / browsing be enabled.
 
+#### SX USB Mass Storage Device / Hard Drive
+Requires SX OS 2.2.1+.  Attach the hard drive before you launch Tinfoil.  Tinfoil will automatically scan the root directory, any subdirectories must be added to locations.conf.  Does not currently support hot swap.
+
 #### USB
 Requires a configured `nut` server. See [here](https://github.com/blawar/nut/#usb-server-for-dz) for details.
 
@@ -145,6 +148,7 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Fixed broken USB installs.
 - Added ability to show installed titles in games, dlc, and updates.
 - Fixed some navigation quirks in grid ui.
+- Added support for SX USB mass storage.  Tinfoil will scan the root directory by default, any other directories must be added in locations.conf.  Not sure if this will crash on non-sx OS's.
 
 
 
@@ -158,3 +162,7 @@ https://github.com/SciresM/hactool
 
 Random JSON parser:
 https://github.com/nlohmann/json
+
+## Trademark
+
+the name "Tinfoil" is trademarked and may not be used without expressed permission.
