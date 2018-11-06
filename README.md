@@ -156,6 +156,8 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Fixed SXUSB priority, so it is a preferred install location.
 - Fixed issue with default ports sometimes being incorrect
 - Added loading screen
+- Fixed junk NSP crashing by disabling icon.
+- Fixed extra refreshes resetting view state.
 
 
 ## Credits
