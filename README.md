@@ -149,7 +149,15 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Added ability to show installed titles in games, dlc, and updates.
 - Fixed some navigation quirks in grid ui.
 - Added support for SX USB mass storage.  Tinfoil will scan the root directory by default, any other directories must be added in locations.conf.  Not sure if this will crash on non-sx OS's.
-
+- Added metadata loading (images and descriptions).  you must have the appropriate titles.XX.yy.json in /switch/dz/db/
+- Added metadata translation in options.
+- Streamlined title dialogs, install dialogs, etc so they are consistent across screens.
+- Added install option to reinstall NCA's
+- Fixed SXUSB priority, so it is a preferred install location.
+- Fixed issue with default ports sometimes being incorrect
+- Added loading screen
+- Fixed junk NSP crashing by disabling icon.
+- Fixed extra refreshes resetting view state.
 
 
 ## Credits
