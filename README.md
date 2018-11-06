@@ -154,7 +154,8 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Streamlined title dialogs, install dialogs, etc so they are consistent across screens.
 - Added install option to reinstall NCA's
 - Fixed SXUSB priority, so it is a preferred install location.
-
+- Fixed issue with default ports sometimes being incorrect
+- Added loading screen
 
 
 ## Credits
