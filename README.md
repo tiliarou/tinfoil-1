@@ -158,6 +158,8 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Added loading screen
 - Fixed junk NSP crashing by disabling icon.
 - Fixed extra refreshes resetting view state.
+- Reduced memory consumption.
+- Switched to GPU rendering.
 
 
 ## Credits
