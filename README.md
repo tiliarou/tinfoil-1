@@ -160,6 +160,12 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Fixed extra refreshes resetting view state.
 - Reduced memory consumption.
 - Switched to GPU rendering.
+- Improved icon loading performance.
+- Added on-screen keyboard.
+- Added text search / filter.
+- Added region filter.
+- General UI enhancements.
+- Remembers game list view state (list/grid view, sort).
 
 
 ## Credits
