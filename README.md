@@ -166,6 +166,7 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Added region filter.
 - General UI enhancements.
 - Remembers game list view state (list/grid view, sort).
+- Added filtering by player count, content rating, and genre.
 
 
 ## Credits
