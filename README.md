@@ -167,6 +167,8 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - General UI enhancements.
 - Remembers game list view state (list/grid view, sort).
 - Added filtering by player count, content rating, and genre.
+- For user's safety, Tinfoil now enforces NCA verification, so Tinfoil will no longer install modified NCA's to prevent potential malicious code execution.  This means you cannot use Tinfoil to install any homebrew NSP or XCI -> NSP converts.
+- Added new logo.
 
 
 ## Credits
