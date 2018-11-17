@@ -176,7 +176,8 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Added ability to download latest metadata from the internet.
 - Added UI translations.
 - General UI improvements.
-- Added more default scan locations
+- Added more default scan locations.
+- Fixed some asian character font rendering issues.  Probably broke more stuff.
 
 
 ## Credits
