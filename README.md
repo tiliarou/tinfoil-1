@@ -179,6 +179,7 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Added more default scan locations.
 - Fixed some asian character font rendering issues.  Probably broke more stuff.
 - Fixed asian languages when switch is set to non-english.
+- Added reverse sorting.
 
 
 ## Credits
