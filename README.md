@@ -180,7 +180,7 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Fixed some asian character font rendering issues.  Probably broke more stuff.
 - Fixed asian languages when switch is set to non-english.
 - Added reverse sorting.
-
+- Disabled sleep during install (thanks WAIN)
 
 ## Credits
 
