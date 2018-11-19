@@ -186,6 +186,7 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - General UI improvements.
 - Added homebrew titleid mask 05XXXXXXXXXXY000 where Y is an even digit.  Use Nro2Nsp.
 - General UI enhancements.
+- Auto generate more directories required, in case application not installed correctly.
 
 ## Credits
 
