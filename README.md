@@ -185,6 +185,7 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Deleted json files before writing them to try to prevent corruption.
 - General UI improvements.
 - Added homebrew titleid mask 05XXXXXXXXXXY000 where Y is an even digit.  Use Nro2Nsp.
+- General UI enhancements.
 
 ## Credits
 
