@@ -169,7 +169,24 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Added filtering by player count, content rating, and genre.
 - For user's safety, Tinfoil now enforces NCA verification, so Tinfoil will no longer install modified NCA's to prevent potential malicious code execution.  This means you cannot use Tinfoil to install any homebrew NSP or XCI -> NSP converts.
 - Added new logo.
-
+- Added theme selector.
+- Fixed bug accessing some files on SD.
+- Fixed random UI elements.
+- Reduced network timeouts.
+- Added ability to download latest metadata from the internet.
+- Added UI translations.
+- General UI improvements.
+- Added more default scan locations.
+- Fixed some asian character font rendering issues.  Probably broke more stuff.
+- Fixed asian languages when switch is set to non-english.
+- Added reverse sorting.
+- Disabled sleep during install (thanks WAIN)
+- Removed home button block.
+- Deleted json files before writing them to try to prevent corruption.
+- General UI improvements.
+- Added homebrew titleid mask 05XXXXXXXXXXY000 where Y is an even digit.  Use Nro2Nsp.
+- General UI enhancements.
+- Auto generate more directories required, in case application not installed correctly.
 
 ## Credits
 
