@@ -191,6 +191,10 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Improved text rendering and added scrolbar to game description.
 - Added ability to delete from file browser (not all locations support delete).
 - Added ability to copy+paste from file browser (not all locations support write).
+- Added option to set network connection timeout.
+- Added option to skip auto-database download.
+- Misc gui enhancements.
+- Added option to enable installation of unsigned code.
 
 ## Credits
 
