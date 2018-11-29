@@ -187,6 +187,14 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Added homebrew titleid mask 05XXXXXXXXXXY000 where Y is an even digit.  Use Nro2Nsp.
 - General UI enhancements.
 - Auto generate more directories required, in case application not installed correctly.
+- UI Speed improvements.
+- Improved text rendering and added scrolbar to game description.
+- Added ability to delete from file browser (not all locations support delete).
+- Added ability to copy+paste from file browser (not all locations support write).
+- Added option to set network connection timeout.
+- Added option to skip auto-database download.
+- Misc gui enhancements.
+- Added option to enable installation of unsigned code.
 
 ## Credits
 
