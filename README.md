@@ -195,6 +195,11 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Added option to skip auto-database download.
 - Misc gui enhancements.
 - Added option to enable installation of unsigned code.
+- Fixed some issues with some updates / dlc not showing.
+- Added more keys to the keyboard
+- Added ability to add and delete locations from the GUI instead of locations.conf
+- Censored passwords when displaying URL's on screen.
+- Random GUI fixes.
 
 ## Credits
 
