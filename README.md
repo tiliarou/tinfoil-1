@@ -200,6 +200,7 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Added ability to add and delete locations from the GUI instead of locations.conf
 - Censored passwords when displaying URL's on screen.
 - Random GUI fixes.
+- Added overclock options for UI and install
 
 ## Credits
 
