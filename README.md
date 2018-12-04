@@ -18,8 +18,6 @@ A homebrew game, update, and DLC installer.
 
 
 ## Supported Protocols
-Edit `locations.conf` to configure your install sources - you can mix and match.  Only ip's can be used the the URL's, no hostnames.
-*Note that all directory paths must end in a forward slash.*
 
 #### SD CARD
 Supports installing from the local SD  card.  Use the URI `sdmc:/` to point to the SD card. Subdirectories also work, for example `sdmc://nsps/`.
@@ -42,12 +40,6 @@ Requires a configured `nut` server. See [here](https://github.com/blawar/nut/#se
 
 ## Trouble shooting
 
-#### Only SD is listed in your locations in the application
-Either your locations.conf is not located at /switch/dz/locations.conf, it is invalid JSON, or you saved the file as unicode.
-- Ensure /switch/dz/locations.conf exists on your SD card.
-- Ensure your locations.conf passes validation at https://jsonlint.com/ .
-- Ensure you did not save your locations.conf file as unicode, the hidden BOM bytes will break parsing.
-
 #### I see my network locations, however no files are listed
 Either Tinfoil cannot cannot connect with the network settings provided, you are using http and did not enable directory browsing, your firewall is blocking the connection.
 - Ensure that you can connect to the FTP/HTTP/NUT server using the provided settings from a *different* PC than the one running the server.
@@ -56,11 +48,10 @@ Either Tinfoil cannot cannot connect with the network settings provided, you are
 - If using HTTP, ensure that directory listing / browsing is enabled.  This must be manually enabled with IIS.
 
 #### I can see the files, but cannot download them.
-- Ensure the url in your locations.conf ends with a forward slash.
 - If using HTTP, verify that you can download the file using a web browser.  IIS requires you to add a MIME type for NSP (application/octet-stream) before you can download.
 
-#### Tinfoil Hangs at a black screen when I launch it
-Ensure the network settings (specifcally the IP) are correct.
+#### Tinfoil Hangs at startup I launch it
+Tinfoil blocks on USB wait if you have your switch connected to a PC upon boot, that is not running a USB Nut server.
 
 ## Disclaimer
 
