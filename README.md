@@ -14,7 +14,6 @@ A homebrew game, update, and DLC installer.
  - Create the directory `/switch/dz/` on your switch's SD card.
  - Copy `dz.nro` to `/switch/dz/dz.nro`.
  - Obtain or generate a `keys.txt` file and place it in `/switch/dz/keys.txt`. `keys.txt` is a text file containing various Switch encryption keys. If you plan to generate it yourself, you can find instructions here:  https://gbatemp.net/threads/how-to-get-switch-keys-for-hactool-xci-decrypting.506978/ or use [`kezplez-nx`](https://github.com/shchmue/kezplez-nx)
- - Copy `locations.conf` to `/switch/dz/locations.conf`. You should edit this file, it is only an example. It points to the various local and network locations hosting your Switch content. You can view an example of how to add the various [supported protocols](#supported-protocols) by looking at the `locations.conf.example`s.
 
 
 ## Supported Protocols
