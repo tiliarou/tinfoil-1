@@ -191,6 +191,19 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Censored passwords when displaying URL's on screen.
 - Random GUI fixes.
 - Added overclock options for UI and install
+- fixed filebrowser copy progress bar.
+- Added theme support.
+- General UI enhancements.
+- Added ability to preload meta images.
+- Started storing all images in image databases rather than on the file system.
+- Internet icon glows when the app is downloading from the internet.
+- SD icon glows when the SD card is being written to (high chance of corruption if you press home while this is lit).
+- Fixed bug that would crash the switch after ~25 installs.
+- Added install all option.
+- Fixed "delete after install"
+- Added "Incomplete" section.  Lists titles that are missing NCA's so they can easily be reinstalled with install all.
+- Changed path from /switch/dz/dz.nro to /switch/tinfoil/tinfoil.nro
+
 
 ## Credits
 
