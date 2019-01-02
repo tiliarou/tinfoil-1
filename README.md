@@ -11,9 +11,9 @@ A homebrew game, update, and DLC installer.
 
 ## Installation
 
- - Create the directory `/switch/dz/` on your switch's SD card.
- - Copy `dz.nro` to `/switch/dz/dz.nro`.
- - Obtain or generate a `keys.txt` file and place it in `/switch/dz/keys.txt`. `keys.txt` is a text file containing various Switch encryption keys. If you plan to generate it yourself, you can find instructions here:  https://gbatemp.net/threads/how-to-get-switch-keys-for-hactool-xci-decrypting.506978/ or use [`kezplez-nx`](https://github.com/shchmue/kezplez-nx)
+ - Create the directory `/switch/tinfoil/` on your switch's SD card.
+ - Copy `tinfoil.nro` to `/switch/tinfoil/tinfoil.nro`.
+ - Obtain or generate a `keys.txt` file and place it in `/switch/tinfoil/keys.txt`. `keys.txt` is a text file containing various Switch encryption keys. If you plan to generate it yourself, you can find instructions here:  https://gbatemp.net/threads/how-to-get-switch-keys-for-hactool-xci-decrypting.506978/ or use [`kezplez-nx`](https://github.com/shchmue/kezplez-nx)
 
 
 ## Supported Protocols
@@ -116,7 +116,7 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Merged updates section only shows updates higher than what you have installed.
 - Added list of DLC and updates to the install dialog.
 - Included Latest Update on the install dialog now works.
-- Added support for loading titles.US.en.json to load names / metadata for all titles.  Place this file at /switch/dz/titles.US.en.json
+- Added support for loading titles.US.en.json to load names / metadata for all titles.  Place this file at /switch/tinfoil/titles.US.en.json
 - "Modified Date" is now "Release Date"
 - Changed name to Tinfoil.
 - Disbaled b-button exit.
@@ -139,7 +139,7 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Added ability to show installed titles in games, dlc, and updates.
 - Fixed some navigation quirks in grid ui.
 - Added support for SX USB mass storage.  Tinfoil will scan the root directory by default, any other directories must be added in locations.conf.  Not sure if this will crash on non-sx OS's.
-- Added metadata loading (images and descriptions).  you must have the appropriate titles.XX.yy.json in /switch/dz/db/
+- Added metadata loading (images and descriptions).  you must have the appropriate titles.XX.yy.json in /switch/tinfoil/db/
 - Added metadata translation in options.
 - Streamlined title dialogs, install dialogs, etc so they are consistent across screens.
 - Added install option to reinstall NCA's
@@ -191,6 +191,19 @@ You can go to the Home tab to see everything that you have installed on your Swi
 - Censored passwords when displaying URL's on screen.
 - Random GUI fixes.
 - Added overclock options for UI and install
+- fixed filebrowser copy progress bar.
+- Added theme support.
+- General UI enhancements.
+- Added ability to preload meta images.
+- Started storing all images in image databases rather than on the file system.
+- Internet icon glows when the app is downloading from the internet.
+- SD icon glows when the SD card is being written to (high chance of corruption if you press home while this is lit).
+- Fixed bug that would crash the switch after ~25 installs.
+- Added install all option.
+- Fixed "delete after install"
+- Added "Incomplete" section.  Lists titles that are missing NCA's so they can easily be reinstalled with install all.
+- Changed path from /switch/tinfoil/tinfoil.nro to /switch/tinfoil/tinfoil.nro
+
 
 ## Credits
 
