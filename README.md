@@ -13,7 +13,7 @@ A homebrew game, update, and DLC installer.
 
  - Create the directory `/switch/tinfoil/` on your switch's SD card.
  - Copy `tinfoil.nro` to `/switch/tinfoil/tinfoil.nro`.
- - Obtain or generate a `keys.txt` file and place it in `/switch/tinfoil/keys.txt`. `keys.txt` is a text file containing various Switch encryption keys. If you plan to generate it yourself, you can find instructions here:  https://gbatemp.net/threads/how-to-get-switch-keys-for-hactool-xci-decrypting.506978/ or use [`kezplez-nx`](https://github.com/shchmue/kezplez-nx)
+ - Obtain or generate a `keys.txt` file and place it in `/switch/tinfoil/keys.txt`. `keys.txt` is a text file containing various Switch encryption keys. If you plan to generate it yourself, you can find instructions here:  https://gbatemp.net/threads/how-to-get-switch-keys-for-hactool-xci-decrypting.506978/ or use [`Lockpick`](https://github.com/shchmue/Lockpick)
 
 
 ## Supported Protocols
