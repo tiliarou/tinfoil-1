@@ -40,7 +40,7 @@ Requires a configured `nut` server. See [here](https://github.com/blawar/nut/#se
 ## Trouble shooting
 
 #### I see my network locations, however no files are listed
-Either Tinfoil cannot cannot connect with the network settings provided, you are using http and did not enable directory browsing, your firewall is blocking the connection.
+Either Tinfoil cannot connect with the network settings provided, you are using http and did not enable directory browsing, your firewall is blocking the connection.
 - Ensure that you can connect to the FTP/HTTP/NUT server using the provided settings from a *different* PC than the one running the server.
 - Tinfoil does not support sub directories, so each directory must point to the exact directory the NSP's are located in.
 - Ensure your firewall is allowing external connections.  Configure or disable your firewall.
